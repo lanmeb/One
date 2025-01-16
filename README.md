@@ -102,3 +102,39 @@ Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um ale
 let nome = prompt("Digite seu nome.");
 alert(`Bem vindo, ${nome}!`)
 ````
+### Desafios 3
+Crie um contador que comece em 1 e vá até 10 usando um loop while. Mostre cada número.
+````js
+let contador = 1;
+while (contador <= 10) {
+    console.log(contador);
+    contador++;
+}
+//de 1 a 10
+````
+Crie um contador que começa em 10 e vá até 0 usando um loop while. Mostre cada número.
+````js
+let contador = 10;
+while (contador >= 0) {
+    console.log(contador);
+    contador--;
+}
+//de 10 a 0
+````
+Crie um programa de contagem regressiva. Peça um número e conte deste número até 0, usando um loop while no console do navegador.
+````js
+let cont = prompt("Digite um numero");
+while (cont >= 0) {
+    console.log(cont);
+    cont--;
+}
+````
+Crie um programa de contagem progressiva. Peça um número e conte de 0 até esse número, usando um loop while no console do navegador.
+````js
+let num = prompt("Digite um numero");
+let contador5 = 0;
+while (contador5 <= num) {
+    console.log(contador5);
+    contador5++;
+}
+````
